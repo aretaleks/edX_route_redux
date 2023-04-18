@@ -7,6 +7,7 @@ import Error from "./Error.jsx";
 import Projects from "./Projects.jsx";
 import Contact from "./Contact.jsx";
 import Blog from "./Blog.jsx";
+import Links from "./Links.jsx";
 
 //import * as Contact from "./Contact.jsx";
 
@@ -23,6 +24,7 @@ const App = () => {
           <Route path="/projects" component={Projects} />
           <Route path="/contact" component={Contact} />
           <Route path="/blog" component={Blog} />
+          <Route path="/links" component={Links} />
           <Route component={Error} />
         </Switch>
       </div>

@@ -9,6 +9,7 @@ const NavBar = () => {
       <NavTab to="/projects" label="Projects" />
       <NavTab to="/contact" label="Contact" />
       <NavTab to="/blog" label="Blog" />
+      <NavTab to="/links" label="Links" />
     </div>
   );
 };
