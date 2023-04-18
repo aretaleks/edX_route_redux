@@ -8,6 +8,7 @@ import Projects from "./Projects.jsx";
 import Contact from "./Contact.jsx";
 import Blog from "./Blog.jsx";
 import Links from "./Links.jsx";
+import "./app.css";
 
 //import * as Contact from "./Contact.jsx";
 
