@@ -6,6 +6,8 @@ import Resume from "./Resume.jsx";
 import Error from "./Error.jsx";
 import Projects from "./Projects.jsx";
 import Contact from "./Contact.jsx";
+import Blog from "./Blog.jsx";
+
 //import * as Contact from "./Contact.jsx";
 
 const App = () => {
@@ -13,12 +15,14 @@ const App = () => {
     <BrowserRouter>
       <div>
         <NavBar />
+
         <Switch>
           <Redirect exact path="/" to="/about" />
           <Route path="/about" component={About} />
           <Route path="/resume" component={Resume} />
           <Route path="/projects" component={Projects} />
           <Route path="/contact" component={Contact} />
+          <Route path="/blog" component={Blog} />
           <Route component={Error} />
         </Switch>
       </div>

@@ -1,5 +1,9 @@
 import React from "react";
 import { Link, Switch, Route } from "react-router-dom";
+import GameProject from "./GameProject.jsx";
+import ReactProject from "./ReactProject.jsx";
+import DatabaseProject from "./DatabaseProject.jsx";
+import MachineLearningProject from "./MachineLearningProject.jsx";
 
 const Projects = ({ match }) => {
   return (
@@ -25,6 +29,13 @@ const Projects = ({ match }) => {
           exact
           path={match.url}
           render={() => <div>Pick a project to view!</div>}
+        />
+        <Route path="/projects/game_project" component={GameProject} />
+        <Route path="/projects/react_project" component={ReactProject} />
+        <Route path="/projects/database_project" component={DatabaseProject} />
+        <Route
+          path="/projects/machine_learning_project"
+          component={MachineLearningProject}
         />
       </Switch>
     </div>

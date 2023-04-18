@@ -8,6 +8,7 @@ const NavBar = () => {
       <NavTab to="/resume" label="Resume" />
       <NavTab to="/projects" label="Projects" />
       <NavTab to="/contact" label="Contact" />
+      <NavTab to="/blog" label="Blog" />
     </div>
   );
 };
