@@ -5,7 +5,8 @@ import About from "./About.jsx";
 import Resume from "./Resume.jsx";
 import Error from "./Error.jsx";
 import Projects from "./Projects.jsx";
-import Contact from "./Contact.jsx";
+//import Contact from "./Contact.jsx";
+import * as Contact from "./Contact.jsx";
 
 const App = () => {
   return (
